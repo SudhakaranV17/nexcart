@@ -1,0 +1,48 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Node.js
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# Maven wrapper downloaded distribution
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+*.suo
+*.swp
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Docker
+.docker/
+
+# Test reports
+test-results/
+playwright-report/
+
+
+# turbo
+.turbo/cache

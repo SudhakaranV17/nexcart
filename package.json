@@ -1,0 +1,23 @@
+{
+  "name": "nexcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "test": "turbo run test",
+    "check": "pnpm lint && pnpm check-types && pnpm test && pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@12.23.0",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^2.11.13"
+  }
+}
